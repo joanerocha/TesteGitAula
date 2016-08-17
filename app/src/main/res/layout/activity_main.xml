@@ -16,43 +16,50 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Lista de Produtos"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:textColor="#E040FB"/>
 
         <View android:layout_height="2dip"
         android:layout_margin="10dp"
-        android:background="#FF909090"
+        android:background="#E040FB"
         />
 
         <TableRow>
             <TextView android:text="Café"
                 android:gravity="left"
-                android:layout_gravity="left" />
+                android:layout_gravity="left"
+                android:textColor="#E040FB"/>
             <TextView android:text="R$ 1,50"
                 android:gravity="end|right"
-                android:layout_gravity="right" />
+                android:layout_gravity="right"
+                android:textColor="#E040FB"/>
         </TableRow>
 
         <TableRow>
             <TextView android:text="Pizza"
                 android:gravity="left"
-                android:layout_gravity="left" />
+                android:layout_gravity="left"
+                android:textColor="#E040FB"/>
             <TextView android:text="R$ 12,00"
                 android:layout_gravity="right"
-                android:gravity="right" />
+                android:gravity="right"
+                android:textColor="#E040FB"/>
         </TableRow>
 
         <TableRow>
             <TextView android:text="Água"
                 android:gravity="left"
-                android:layout_gravity="left" />
+                android:layout_gravity="left"
+                android:textColor="#E040FB"/>
             <TextView android:text="R$ 3,00"
                 android:layout_gravity="right"
-                android:gravity="right" />
+                android:gravity="right"
+                android:textColor="#E040FB"/>
         </TableRow>
 
         <View android:layout_height="2dip"
         android:layout_margin="10dp"
-        android:background="#FF909090"
+        android:background="#E040FB"
         />
 
     <LinearLayout
@@ -63,12 +70,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="35dip"
-            android:text="Cancelar" />
+            android:text="Cancelar"
+            android:background="#E040FB"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="35dip"
-            android:text="Comprar"/>
+            android:text="Comprar"
+            android:background="#E040FB"/>
 
     </LinearLayout>
 
